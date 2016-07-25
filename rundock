@@ -1,0 +1,6 @@
+docker run -itd \
+                -p 9022:22 \
+                -v /c/Users/sures/docker/gitserver/repositories:/home/git/repositories \
+                --privileged \
+                --name gitserver \
+                gitserver
